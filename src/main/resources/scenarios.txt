@@ -1,0 +1,49 @@
+Roles:
+1.Admin
+Grants:
+- сreation of users
+- grant rights to users
+2.User
+Grants:
+- update own profile
+- create and update the info of birthday-children
+- see list of birthday-children
+- get new password
+
+
+1. Login:
+- User visits the main page
+- makes login with correct data
+- Startpage-form opens
+- Functions available:
+1. Add birthday child
+2. Open birthday children list
+3. Edit own profile
+4.*If user has admin rights: Open list of users
+
+2. Add birthday child
+Preconditons: user pressed button 'Add birthday child' on from Startpage
+- New birthday child form opens
+Fields available, fields with * = required:
+Name*
+Lastname*
+Team
+Birthday*
+Sex*
+Info
+is kind fairy: default no
+when is kind fairy =yes : email*
+Buttons:
+-OK (check required fields and save new data to database, then back to main page)
+-Cancel (back to main page without saving data)
+
+3. Preconditons: user pressed button 'Open birthday children list' on from Startpage
+- List of birthday children opens with columns
+Team | Name | Lastname | Sex | Birthday | Info | isKindFairy
+Functions available:
+- Select users by Team or Sex, display number
+- Sort users by Birthday
+- Highlight the user and press Update
+
+
+
