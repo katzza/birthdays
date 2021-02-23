@@ -67,7 +67,7 @@ Preconditons: user = admin and pressed button 'Users' on form Startpage
 - List of users (Form Users) opens with columns
 Login | Team
 Functions:
-- add user (login, password, team, email1, email2, birthdaychild, inaktiv (default-no))
+- add user (login, password, team, email1, email2, birthdaychild, isAdmin (default-no))
 - edit user
 
 
